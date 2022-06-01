@@ -28,8 +28,8 @@ function notify($to,$data){
 
 $to="dk48ijHyRECwQ5pNwSJQo5:APA91bGmsWx12QCQEs_G-7c_t5iXLWdBJUixGW44uHLra2oVbTiM5xt5Mp_lT1llAxWS3neu7JEZ9vaupI7CMG5aNN5fBLEk1ePQZ7wHjxQrYLUpZU6FgxFe_yCmDDKRbXOxMCqpfJt6";
 $data=array(
-    'title'=>'Greetings',
-    'body'=>'Hi, From PHP Script'
+    'title'=>'Regu',
+    'body'=>'Hola, ya funciona'
 );
 
 notify($to,$data);
