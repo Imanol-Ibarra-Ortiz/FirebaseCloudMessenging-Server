@@ -2,7 +2,7 @@
 
 function notify($to,$data){
 
-    $api_key="";
+    $api_key="AAAAW5OFEL4:APA91bH96KCkVom6EMOms0QXWyS-otWxDZcbf91WaCKIEDrg0zNMx6ekdLcQDg_8iqT0BJamhMFgdUDgiXU8Z0lgx7uOXnhKvT_EFY7q6r9H6g7G1S1fvOeEiAnxnwtfJUzooa9ENQbA";
     $url="https://fcm.googleapis.com/fcm/send";
     $fields=json_encode(array('to'=>$to,'notification'=>$data));
 
@@ -26,7 +26,7 @@ function notify($to,$data){
     curl_close($ch);
 }
 
-$to="";
+$to="dk48ijHyRECwQ5pNwSJQo5:APA91bGmsWx12QCQEs_G-7c_t5iXLWdBJUixGW44uHLra2oVbTiM5xt5Mp_lT1llAxWS3neu7JEZ9vaupI7CMG5aNN5fBLEk1ePQZ7wHjxQrYLUpZU6FgxFe_yCmDDKRbXOxMCqpfJt6";
 $data=array(
     'title'=>'Greetings',
     'body'=>'Hi, From PHP Script'
